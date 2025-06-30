@@ -23,7 +23,7 @@ export default function Navbar() {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <button onClick={() => scrollToSection('hero')} className="cursor-pointer text-xl font-bold text-gray-800">
-              AUTOLIGAS
+              AUTO LIGAS
             </button>
           </div>
           

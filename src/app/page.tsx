@@ -36,7 +36,7 @@ export default function Home() {
         </div>
         <div className="relative z-10 h-full flex flex-col items-center justify-center text-white px-4">
           <h1 className="text-4xl md:text-6xl font-bold text-center mb-6">
-            Benvenuto in AUTOLIGAS
+            Benvenuto in AUTO LIGAS
           </h1>
           <p className="text-xl md:text-2xl text-center mb-8 max-w-2xl">
             La tua concessionaria di fiducia per auto nuove e usate di qualità         
@@ -53,7 +53,7 @@ export default function Home() {
       {/* Featured Cars Section */}
       <section id="featured" className="w-full py-16 px-4 bg-white">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-black">
             Auto in evidenza
           </h2>
           <div className="w-full max-w-4xl mx-auto">
@@ -65,27 +65,27 @@ export default function Home() {
       {/* Services Section */}
       <section id="services" className="w-full py-16 px-4 bg-gray-50">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-black">
             I nostri servizi
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <div className="text-3xl mb-4">🚗</div>
-              <h3 className="text-xl font-semibold mb-2">Vendita auto</h3>
+              <h3 className="text-xl font-semibold mb-2 text-black">Vendita auto</h3>
               <p className="text-gray-600">
                 Ampia selezione di auto nuove e usate di alta qualità
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <div className="text-3xl mb-4">🔧</div>
-              <h3 className="text-xl font-semibold mb-2">Assistenza</h3>
+              <h3 className="text-xl font-semibold mb-2 text-black">Assistenza</h3>
               <p className="text-gray-600">
                 Servizio di assistenza e manutenzione professionale
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg">
               <div className="text-3xl mb-4">💰</div>
-              <h3 className="text-xl font-semibold mb-2">Finanziamenti</h3>
+              <h3 className="text-xl font-semibold mb-2 text-black">Finanziamenti</h3>
               <p className="text-gray-600">
                 Soluzioni di finanziamento personalizzate
               </p>
@@ -101,10 +101,10 @@ export default function Home() {
             Interessato ai nostri veicoli?
           </h2>
           <p className="text-xl mb-8 fade-in" style={{animationDelay: '0.2s'}}>
-            Contattaci per maggiori informazioni all&apos;indirizzo <strong>autoligas@gmail.com</strong>
+            Contattaci per maggiori informazioni all&apos;indirizzo <strong>AUTO LIGAS@gmail.com</strong>
           </p>
           <button
-            onClick={() => window.location.href = 'mailto:autoligas@gmail.com'}
+            onClick={() => window.location.href = 'mailto:AUTO LIGAS@gmail.com'}
             className="cursor-pointer inline-block bg-white text-gray-900 px-8 py-3 rounded-full text-lg font-semibold hover:bg-gray-100 transition-colors"
           >
             Contattaci

@@ -6,7 +6,7 @@ import Navbar from "@/components/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "AUTOLIGAS - Concessionaria Auto Nuove e Usate",
+  title: "AUTO LIGAS - Concessionaria Auto Nuove e Usate",
   description: "La tua destinazione per auto nuove e usate di qualità",
 };
 
