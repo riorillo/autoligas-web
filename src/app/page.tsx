@@ -101,7 +101,7 @@ export default function Home() {
             Interessato ai nostri veicoli?
           </h2>
           <p className="text-xl mb-8 fade-in" style={{animationDelay: '0.2s'}}>
-            Contattaci per maggiori informazioni all'indirizzo <strong>autoligas2025@gmail.com</strong>
+            Contattaci per maggiori informazioni all&apos;indirizzo <strong>autoligas2025@gmail.com</strong>
           </p>
           <button
             onClick={() => window.location.href = 'mailto:autoligas2025@gmail.com'}
