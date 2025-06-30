@@ -10,13 +10,13 @@ const featuredCars = [
   },
   {
     url: '/cars/car2.jpg',
-    alt: 'Mercedes',
+    alt: 'Audi',
     title: 'Mercedes'
   },
   {
     url: '/cars/car3.jpg',
-    alt: 'Audi',
-    title: 'Audi'
+    alt: 'Mercedes',
+    title: 'Mercedes'
   }
 ];
 
