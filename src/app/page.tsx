@@ -11,7 +11,7 @@ const featuredCars = [
   {
     url: '/cars/car2.jpg',
     alt: 'Audi',
-    title: 'Mercedes'
+    title: 'Audi'
   },
   {
     url: '/cars/car3.jpg',
